@@ -18,15 +18,16 @@
       display: flex;
       flex-direction: row;  
   }
+
   h3{
-      font-family: "interstate", sans-serif;
+      font-family: "proxima-nova", sans-serif;
       font-weight: 700;
       font-style: normal;
       font-size: 2.500em
   
   }
   p{
-      font-family: "interstate", sans-serif;
+      font-family: "proxima-nova", sans-serif;
       font-weight: 500;
       font-style: normal;
       font-size: 1.875em;
@@ -34,10 +35,13 @@
   }
   
   a{
-      text-decoration: none;
-      color: white;
-      display: inline-block;
-      text-shadow: 0.188em 0.188em black;
+     font-family: "cooper-black-std", serif;
+     font-weight: 400;
+     font-style: italic;      
+     text-decoration: none;
+     color: white;
+     display: inline-block;
+     text-shadow: 0.188em 0.188em black;
   
   }
   .container{
@@ -66,3 +70,26 @@
     height: 15vh;
     position: fixed;
   }
+  
+
+  #navbar a {
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 5vh;
+    text-decoration: none;
+    align-content: center;
+     }
+
+  
+ .active, .btn:hover, .btn{
+     border: orange;
+     border-radius: 2.5vh;
+     cursor: pointer;
+     float: left;
+
+     }
+
+ 
+      
+ 
