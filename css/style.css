@@ -3,10 +3,14 @@
   padding: 0;
 }
 body{
-    background-color: #c59b6d;
+    
     color: #ffffff;
-    min-height: 100vh;
-    width: 100%; 
+  height: 100vh;
+  width: 100%; 
+  background-image: url(../img/LakeMerritt.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 h1{
@@ -17,6 +21,14 @@ h1{
     text-align: center;
     display: flex;
     flex-direction: row;  
+}
+h2{
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: italic;      
+  text-decoration: none;
+  color: white;
+  display: inline-block;
 }
 h3{
     font-family: "interstate", sans-serif;
@@ -79,7 +91,24 @@ p{
       text-shadow: 0.188em 0.188em black;
     }
 
-
+  footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #603813;
+    background-image: url(../img/texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+  }
+ .lakemerritt{
+  background-image: url(../img/LakeMerritt.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+  
 
   /*ANIMATIONS/*
 
