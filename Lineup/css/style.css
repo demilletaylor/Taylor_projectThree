@@ -6,7 +6,7 @@
     background-image: linear-gradient(#f4901e, #ff0090);
     background-repeat: no-repeat;
     min-height: 100%;
-    background-attachment:fixed;
+    background-attachment:scroll;
   
   }
   body{
@@ -81,6 +81,8 @@
   .container{
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
   }
   .sections{
     width: 100%;
@@ -134,15 +136,13 @@
      }
      #Day1Summary{
       text-align: left;
+      background-color: #f4901e;
      }
      #Day2Summary{
       text-align: right;
+
      }
-     #Day3Summary{
+     #Day3Summary, #Concert{
       text-align: left;
+      background-color: #ff0090;
      }
-
-
- 
-      
- 
