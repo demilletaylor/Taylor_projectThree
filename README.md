@@ -9,9 +9,12 @@
 
  ## Technical Overview 
 
-    I had to build a complete brand identity for the festival and create a corresponding GitHub repository. My brand identity toolkit, "official" festival graphics, and merch items were designed in Adobe Illustrator and mockups were created in Photoshop. This website is done with HTML and CSS. For my home page, I incorporated responsive sizing.
+    My brand identity toolkit, "official" festival graphics, and merch items were designed in Adobe Illustrator and mockups were created in Photoshop. 
     
-    With this project, I did more in-depth development and wireframing in Adobe XD to have a clear direction of what I wanted my site to looks like. 
+    This site is done with HTML and CSS, and created as a GitHub repository. For my home page, I incorporated responsive sizing utilizing flexboxes, viewports, and key frames.
+    
+    With this project, I did more in-depth development and wireframing in Adobe XD to have a clear direction of what I wanted my site to looks like.
+  ### Reference Files 
    * Brand Identity Guidelines (Full PDF): https://drive.google.com/file/d/1-Kn4rLL5__8fUPmlUsyZfhoLJZiQp9L6/view?usp=sharing
    * Brand Identity Guidelines (Single Slide): https://drive.google.com/file/d/1-Kyp47JLmBnpucYEMY9LjCNE2OLdBQg1/view?usp=sharing
    * High Fidelity Wireframes in Adobe XD: https://xd.adobe.com/view/c12a254e-8db0-4713-a9f8-a1f3e8e13495-9479/?fullscreen
