@@ -31,6 +31,7 @@ h2{
   text-decoration: none;
   color: white;
   display: inline-block;
+  text-align: center;
 }
 h3{
     font-family: "interstate", sans-serif;
@@ -89,11 +90,12 @@ p{
   overflow: hidden;
 }
 
-.container{
-  width: 100%;
-  height: 100vh;
+#container{
+  margin-top: 10%;
+  text-align: center;
 }
 .sections{
+  margin-top: 10%;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -103,9 +105,6 @@ p{
 }
 
 .navbar {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
   background-color: #603813;
   background-image: url(../../img/texture.png);
   background-repeat: no-repeat;
@@ -119,8 +118,12 @@ p{
   position: fixed;
 }
 
+
 .navbar a {
-  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  text-align: right;
   display: inline-block;
   color: #f2f2f2;
   padding: 5vh;
@@ -140,11 +143,15 @@ p{
     transform:scale(1.5);
     transition: all;
     transition-duration: .5;
+    
   }
   .homeicon {
     padding: 5vh;
     text-decoration: none;
-  }
+    justify-content: left;
+    position: fixed;
+    margin-left:10%;
+}
 
   #partners{
     display: flex;
