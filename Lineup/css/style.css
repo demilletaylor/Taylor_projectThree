@@ -3,7 +3,7 @@
   padding: 0;
   }
   html{
-  
+    scroll-behavior: smooth;
     background-repeat: no-repeat;
     min-height: 100%;
     background-attachment:scroll;
@@ -152,20 +152,24 @@ h6{
       background-image: url(../../img/texture.png);
      }
      #festivalgrounds{
-      padding-top: 12%;
+      padding-top: 10%;
       text-align: center;
       padding-bottom: 5%;
      }
      #festivalmapimg{
-      width: 80%;
-      min-height: 100vh;
+      width: 60%;
       }
      
      .containerparent, #containerchild0{
+      padding-top: 8%;
+      padding-bottom:5%;
       background-color: #F4901E;
       margin: 0;
+      display: flex;
       justify-content: center;
+      min-height: 60vh;
      }
+    
 
      #Day1Summary{ 
       text-align: left;
@@ -193,7 +197,5 @@ h6{
      .containerparent3, .containerparent4{
       background-color: #F23D6D;
      }
-
+     
     
-  
-  
