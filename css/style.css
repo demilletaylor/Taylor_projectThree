@@ -42,7 +42,6 @@ h3{
   font-weight: 400;
   font-style: normal;
   font-size: 3.0625em;
-  color: #ffffff;
 }
 h4{
   font-family: "proxima-nova", sans-serif;
@@ -61,11 +60,13 @@ font-family: "proxima-nova", sans-serif;
 
 h6{
   font-family: "proxima-nova", sans-serif;
-  font-weight: 500;
-  font-style: italic;
+  font-weight: 300;
+  font-style: normal;
   font-size: 2.8125em;
   color: #ffffff;
 }
+
+
 
 
 .navbar {
@@ -79,6 +80,7 @@ h6{
   position: fixed;
   z-index: 100;
 }
+
 .homeicon{
   padding: 5vh;
   text-decoration: none;
@@ -88,20 +90,26 @@ h6{
   transition: none;
 }
 
-.navbar a {
+.navbar a{
   float: left;
-  text-align: center;
+  text-align: left;
   padding: 5vh 5vh 5vh 5vh;
   text-decoration: none;
+  display: inline;
+  position: relative;
+}
+#lineuplink, #shoplink{
+  color: #ffffff;
+  padding-right: 5vh;
+  position: relative;
 
 }
 
-
-#lineuplink a:hover {
-  transform: scale(1.3);
+#lineuplink a:hover{
   color: orange;
-  cursor:pointer;  
-  transition-duration: 1s;
+  cursor:pointer; 
+  transform: scale(1.3);
+  transition: 1s; 
 }
 #shoplink a:hover {
   color:#29abe2;
@@ -109,6 +117,7 @@ h6{
   transition: 1s;
   cursor:pointer;
 }
+
  
 section{
   width: 100%;
@@ -167,13 +176,13 @@ section{
 #containerchild2{
   justify-content: center;
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 10%;
-  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
   padding: 3%;
-  border-radius: 2.5em;
-  border-width: 2.5em;
+  border-radius:3.5em;
+  border-width: 12.5em;
   border-color: #603813;
   text-align: center;
   background-color: #c59b6d;
@@ -208,7 +217,7 @@ section{
 }
 .lineupbtn:hover{
   transform: scale(1.2) ;
-  background-color: orange;
+  background-color: #f4901e;
   border-color: #603813;
   transition: all 0.5s;
   cursor: pointer;
@@ -254,9 +263,32 @@ section{
 
   }
   
- @media screen {
-  
- }
+@media screen and (min-width: 900px) {
+  .navbar {
+    background-color: #603813;
+    background-image: url(../../img/texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    display: inline;
+    z-index: 100;
+  }
+  li{
+    display: inline;
+    position: relative;
+  }
+  .homeicon{
+    padding: 5vh;
+    text-decoration: none;
+    justify-content: left;
+    position: fixed;
+    margin-left:10%;
+    transition: none;
+  }
+}
   
 
   /*ANIMATIONS/*

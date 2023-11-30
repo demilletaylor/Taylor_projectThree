@@ -45,7 +45,6 @@ h3{
   font-weight: 400;
   font-style: normal;
   font-size: 3.0625em;
-  color: #ffffff;
 }
 h4{
   font-family: "proxima-nova", sans-serif;
@@ -78,36 +77,46 @@ h6{
     text-align: center;
     width: 100%;
     height: 15vh;
+    padding: 2%;
     position: fixed;
     z-index: 100;
   }
-  .homeicon:hover {
+  li{list-style-type: none;
+    display: inline;
+    position: relative;
+  }
+  .homeicon{
     padding: 5vh;
     text-decoration: none;
     justify-content: left;
     position: fixed;
     margin-left:10%;
+    transition: none;
   }
+ 
   
   .navbar a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 5vh 5vh 5vh 5vh;
-    text-decoration: none;
     font-family: "cooper-black-std", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.0625em;
+    
   
   }
   
-  
-  #lineuplink a:hover {
-    color: orange;
-    transform: scale(1.3);
-    transition: all 1s;
-    cursor:pointer;
+  #lineuplink a{
+  color: #ffffff;
+  background-color: #F4901E;
+  border-radius: 2em;
   }
+  #shoplink a{
+    text-decoration: none;
+  } 
+  
   #shoplink a:hover {
     color:#29abe2;
     transform: scale(1.3);
@@ -118,14 +127,10 @@ h6{
     border: 10px solid #603803;
     border-radius: 20em;
   }
- li{list-style-type: none;
-     }
 
-  .container{
-    width: 100%;
-    margin: auto;
-    display: flex;
-  }
+  
+
+  
   .sections{
     width: 100%;
     height: 100vh;
@@ -146,47 +151,49 @@ h6{
       background-color: #603813;
       background-image: url(../../img/texture.png);
      }
-     #Day1Summary{
+     #festivalgrounds{
+      padding-top: 12%;
+      text-align: center;
+      padding-bottom: 5%;
+     }
+     #festivalmapimg{
+      width: 80%;
+      min-height: 100vh;
+      }
+     
+     .containerparent, #containerchild0{
+      background-color: #F4901E;
+      margin: 0;
+      justify-content: center;
+     }
+
+     #Day1Summary{ 
       text-align: left;
-      margin-top: 10%;
-      margin-left: 5%;
-      margin-right: 30%;
+      padding-left: 5%;
+      padding-right: 30%;
+     }
+     .containerparent1{
+      background-color: #F26835;
      }
      #Day2Summary{
       margin-right: 5%;
       text-align: right;
       text-decoration: none;
       margin-left: 30%;
-      
-     }
-     #Day3Summary{
-      text-align: left;
-      margin-left: 5%;
-      margin-bottom: 10%;
-      margin-right:30%;
-     }
-     .containerparent1{
-      background-color: #F26835;
-      margin: 0;
      }
      .containerparent2{
       background-color: #F24B4B;
+     } 
+     #Day3Summary{
+      text-align: left;
+      margin-left: 5%;
+      margin-bottom: 0;
+      margin-right:30%;
      }
      .containerparent3, .containerparent4{
       background-color: #F23D6D;
      }
 
-     
-     .FullLineup{
-      display: flex;
-      flex-direction: column;
-      width: 40%;
-     }
-
     
-    .image {
-      display: block;
-      width: 100%;
-      border-color: #ff0090;
-    }
+  
   
