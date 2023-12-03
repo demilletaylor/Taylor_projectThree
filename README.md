@@ -22,5 +22,13 @@ With this project, I did more in-depth development and wireframing in Adobe XD t
 * High Fidelity Wireframes in Adobe XD: https://xd.adobe.com/view/c12a254e-8db0-4713-a9f8-a1f3e8e13495-9479/?fullscreen
 
  ## Acknowledgments
+ ### Font + Asset Sources
+ * Adobe Fonts: 
+    * Cooper Black: https://fonts.adobe.com/fonts/cooper-black
+    * Proxima Nova: https://fonts.adobe.com/fonts/proxima-nova
+* Background Wave Texture:
+    * https://canva.com
+
+
 
     
