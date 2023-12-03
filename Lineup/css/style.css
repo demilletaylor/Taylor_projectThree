@@ -240,7 +240,7 @@ cursor:pointer;
   }
   .shopbtn:hover{
     transform: scale(1.2) ;
-    background-color: #29abe2;
+    background-color: #29abe;
     border-color: #603813;
     transition: all 0.5s;
     cursor: pointer;
