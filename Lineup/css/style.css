@@ -218,6 +218,41 @@ cursor:pointer;
     height: 350px;
     border: 5px black solid;
   }
+  button{
+    justify-content: center;
+  }
+  .shopbtn{
+    width: 5.00em;
+    height: 1.5em;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: italic; 
+    text-transform: uppercase;
+    text-align: center;  
+    font-size:1.00em;   
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    -webkit-text-stroke: .055em black;
+    background-color:#c59b6d;
+    border-radius: .5em;
+    border-width: .10em;
+  }
+  .shopbtn:hover{
+    transform: scale(1.2) ;
+    background-color: #29abe2;
+    border-color: #603813;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .btncontainer{
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+    background-color: #F23D6D;
+    padding-bottom: 3%;
+
+  }
    
      
     
