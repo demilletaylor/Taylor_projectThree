@@ -72,6 +72,11 @@ p{
   font-size: 1.8125em;
   color: #ffffff;
 }
+a{
+  text-decoration: none;
+  color: white;
+  text-shadow: 0.188em 0.188em black;
+}
 
 hr{
     border: 0.5vw solid #f4901e;
@@ -234,22 +239,16 @@ section{
 }
 
 
-
-#partners{
-  justify-items: center;
+.footer{
+  justify-content: center; 
 }
-  .partners img{
-    height: 8.5em;  
+  .footer img{
+    height: 8.5em; 
+    justify-content: center; 
   }
-
-    
-    a{
-      text-decoration: none;
-      color: white;
-      text-shadow: 0.188em 0.188em black;
-    }
   
   footer{
+    justify-content: center; 
     position:absolute;
     margin: 0;
     width: 100%;
@@ -260,7 +259,6 @@ section{
     background-size: cover;
   }
  
-  
   @media screen and (max-width: 767px ){
     html{
       max-height: 767px;
