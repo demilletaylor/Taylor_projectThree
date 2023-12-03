@@ -120,11 +120,11 @@ a{
   transition: all 1s; 
   cursor:pointer; 
 }
-.shoplink:hover {
+.shoplink {
   color:#29abe2;
   transform: scale(1.5);
-  transition: 1s;
   cursor:pointer;
+  text-decoration: underline;
 }
 .aboutlink:hover{
   transform: scale(1.5);

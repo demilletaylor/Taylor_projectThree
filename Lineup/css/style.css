@@ -104,11 +104,13 @@ font-size: 1.5em;
 color: #ffffff;
 }
 
-.lineuplink:hover{
+.lineuplink{
 color: orange;
 transform: scale(1.5);
 transition: all 1s; 
 cursor:pointer; 
+text-decoration: underline;  
+
 }
 .shoplink:hover {
 color:#29abe2;
@@ -218,8 +220,13 @@ cursor:pointer;
     height: 350px;
     border: 5px black solid;
   }
-  button{
+  .setlistcontainer{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+  }
+  .iframe{
+padding-top:5%;
   }
   .shopbtn{
     width: 5.00em;

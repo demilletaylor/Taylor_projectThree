@@ -122,11 +122,12 @@
     transition: 1s;
     cursor:pointer;
     }
-    .aboutlink:hover{
+    .aboutlink{
     transform: scale(1.5);
     color: #8cc63f;
     transition: all 1s;
-    cursor:pointer;  
+    cursor:pointer;
+    text-decoration: underline;  
     }
 
 
