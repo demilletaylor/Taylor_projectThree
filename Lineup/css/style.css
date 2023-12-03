@@ -168,7 +168,11 @@ cursor:pointer;
       justify-content: center;
       min-height: 60vh;
      }
-    
+     .containerparent00, #containerchild00{
+      text-align: center;
+      background-color: #F4901E;
+      padding-bottom:5%
+     }
 
      #Day1Summary{ 
       text-align: left;
@@ -185,7 +189,7 @@ cursor:pointer;
       margin-left: 30%;
      }
      .containerparent2{
-      background-color: #F24B4B;
+      background-color: #f24b4b;
      } 
      #Day3Summary{
       text-align: left;
